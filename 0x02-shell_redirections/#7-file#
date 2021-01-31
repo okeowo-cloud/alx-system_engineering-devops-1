@@ -1,0 +1,2 @@
+0;136;0c#!/bin/bash
+echo -e "Holberton School\$\n" $(touch '\*\\'\''"Holberton School"\'\''\\*$\?\*\*\*\*\*:)'
