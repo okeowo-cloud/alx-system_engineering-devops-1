@@ -1,2 +1,2 @@
 #!/bin/bash
-find /etc/passwd -type d -name "bin" | wc -l
+find /etc/passwd  -name "*bin*" | wc -l
