@@ -1,2 +1,2 @@
 #!/bin/bash
-find /etc/passwd -type d -name "*root*"
+find /etc/passwd -type d -name "root"
