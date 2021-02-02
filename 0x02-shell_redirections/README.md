@@ -1,5 +1,6 @@
 # This project is to be excersise shell I/O Redirection and filter
 
+###### files numbere and what they do
 0. prints "Hello, World”, followed by a new line to the standard output
 1. prints confused smiley "(Ôo)'
 2. prints content of the /etc/passwd file
