@@ -1,2 +1,2 @@
-This is a project about shell and navigation, working on files and managing files on linux using terminal
-# holberton-system_engineering-devops
+# ALX-system_engineering-devops
+###### This is a project about shell and navigation, working on files and managing files on linux using terminal
