@@ -2,15 +2,18 @@
 # check for file holbertonschool
 f="holbertonschool"
 if [ -e $f ]; then
-    echo "holbertonschool file exists"
+    echo "$f file exists"
+
     if [ -s $f ]; then
-	echo "holbertonschool file is not empty"
+	echo "$f file is not empty"
     else
-	echo "holbertonschool file is empty"
+	echo "$f file is empty"
     fi
+
     if [ -f $f ]; then
-	echo "holbertonschool is a regular file"
+	echo "$f is a regular file"
     fi
+
 else
-    echo "holbertonschool file does not exit"
+    echo "$f file does not exit"
 fi
