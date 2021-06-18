@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# prints Holberton School 10x
+i=0
+n=9
+until ((i > n))
+do
+    echo "Holberton School"
+    ((i+=1))
+done

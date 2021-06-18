@@ -2,7 +2,8 @@
 # prints Holberton School 10x
 i=0
 n=10
-while ((i < n));do
+until ((i > n))
+do
     echo "Holberton School"
-    i += 1
+    ((i+=1))
 done
