@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# displays the current diretory in a list format and displays
+# name after the first dash only
+for files in `ls`; do
+    echo files | tr -d '-'
+done
