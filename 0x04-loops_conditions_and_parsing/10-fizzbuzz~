@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# dispalys FizzBuzz alternating
+i=0
