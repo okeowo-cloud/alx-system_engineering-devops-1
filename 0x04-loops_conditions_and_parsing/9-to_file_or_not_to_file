@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 # check for file holbertonschool
+
 f="holbertonschool"
+
 if [ -e $f ]; then
     echo "$f file exists"
 
