@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 # displays the current diretory in a list format and displays
-# name after the first dash only
 file="$(ls)"
-for files in $file; do
-    echo "$files" | tr -d "-"
+for f in $file; do
+    echo "$f" | cut -d "-" -f2
 done
