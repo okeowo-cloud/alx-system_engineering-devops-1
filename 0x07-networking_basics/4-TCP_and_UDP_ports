@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# display list script
+
+sudo netstat -pl
