@@ -1,4 +1,4 @@
 #!/usr/bin/env ruby
 # Match "Holberton"
 
-puts ARGV[0].scan(/Hbt+n/).join
+puts ARGV[0].scan(/hbt+n/).join
