@@ -1,5 +1,5 @@
 # use 'exec' and 'pkill'
 
-exec { 'pkill killmenow':
+exec { 'killmenow':
   command => '/usr/bin/pkill -f /killmenow',
 }
