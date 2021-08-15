@@ -8,6 +8,10 @@ define accounts_global::account () {
      IdentityFile ~/.ssh/holberton"
 
   file { "/home/${name}/.ssh/config" :
+    require => Account[$name],
+    owner   => $name,
+    group   => $name,
+    mode    => '0600',
     ensure  => file,
     path    => '/home/${name}/.ssh/config',
     content => $mytext,
