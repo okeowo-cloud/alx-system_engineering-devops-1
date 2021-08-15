@@ -1,7 +1,5 @@
 $mytext = "Host 34.75.72.161
      PasswordAuthentication no
-
-
      IdentityFile ~/.ssh/holberton"
 
 file {'~/.ssh/.config':
