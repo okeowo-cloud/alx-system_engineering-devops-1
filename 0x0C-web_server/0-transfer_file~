@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-# transfer a file from client to a server
-scp -o "StrictHostKeyChecking=no" $4 $1 $2@$3:~/
