@@ -1,3 +1,3 @@
-#!/usr/bin/env bash
+#!/bin/bash
 # Get
 curl -sL "$1"
