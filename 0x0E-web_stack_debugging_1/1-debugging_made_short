@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-sed -i 's/listen [::]:80 default_server ipv6only=on;/listen [::]:80 default_server/g' /etc/nginx/sites-available/default
-sudo mv /etc/nginx/sites-enabled/default /home
+# a more simplified debugging
+sudo mv /etc/nginx/sites-enabled/default /home/default.backup
 ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled
 sudo service nginx restart
