@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# debugging
+sed -i 's/listen [::]:80 default_server ipv6only=on;/listen [::]:80 default_server/g' /etc/nginx/sites-available/default
+sudo mv /etc/nginx/sites-enabled/default /home
+ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled
+sudo service nginx restart
