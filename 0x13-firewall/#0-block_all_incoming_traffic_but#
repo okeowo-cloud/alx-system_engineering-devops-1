@@ -1,0 +1,18 @@
+#!/bin/bash
+sudo apt-get update
+sudo ufw enable
+sudo ufw default allow outgoing
+sudo ufw default deny incoming
+sudo allow ssh
+sudo allos http
+case  in
+    s)
+	
+	;;
+    f)
+	
+	;;
+    f)
+	
+	;;
+    
