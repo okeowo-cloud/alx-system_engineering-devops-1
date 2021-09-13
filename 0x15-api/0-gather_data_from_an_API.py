@@ -19,7 +19,7 @@ def getText():
     num_all_task = 0
     num_done_task = 0
     for todo in res.json():
-        if todo.get('completed'):
+        if todo.get('completed') is True:
             num_done_task += 1
             done_task.append(todo.get('title'))
         num_all_task += 1
