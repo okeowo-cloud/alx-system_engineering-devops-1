@@ -7,7 +7,7 @@ import json
 import requests
 
 
-def getText():
+def todo_all_employees():
     """ returns information about his/her TODO list progress. """
     user = (requests.get(
         'http://jsonplaceholder.typicode.com/users')).json()
