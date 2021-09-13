@@ -23,8 +23,7 @@ def getText():
             todo_writer = csv.writer(
                 todo_file,
                 delimiter=',',
-                quotechar='"',
-                quoting=csv.QUOTE_MINIMAL)
+                quoting=csv.QUOTE_ALL)
             todo_writer.writerow([todo.get('userId'), user[0].get('username'),
                                   todo.get('completed'), todo.get('title')])
 
