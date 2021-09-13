@@ -33,4 +33,4 @@ def todo_all_employees():
 
 
 if __name__ == '__main__':
-    getText()
+    todo_all_employees()
