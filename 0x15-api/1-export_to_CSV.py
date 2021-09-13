@@ -18,12 +18,13 @@ def getText():
     done_task = []
     num_all_task = 0
     num_done_task = 0
+    userId = user[0].get('id')
     for todo in res.json():
-        with open('USER_ID.csv', mode='a') as todo_file:
+        with open('{}.csv'.format(userId), mode='a') as todo_file:
             todo_writer = csv.writer(
                 todo_file,
                 quoting=csv.QUOTE_ALL)
-            todo_writer.writerow([todo.get('userId'), user[0].get('username'),
+            todo_writer.writerow([userId, user[0].get('username'),
                                   todo.get('completed'), todo.get('title')])
 
 
