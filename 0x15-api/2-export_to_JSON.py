@@ -8,7 +8,7 @@ import requests
 from sys import argv
 
 
-def getText():
+def export_to_json():
     """ returns information about his/her TODO list progress. """
     user = (requests.get(
         'http://jsonplaceholder.typicode.com/users?id={}'.format(
@@ -31,4 +31,4 @@ def getText():
 
 
 if __name__ == '__main__':
-    getText()
+    export_to_json()
