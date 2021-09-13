@@ -19,12 +19,12 @@ def getText():
     num_all_task = 0
     num_done_task = 0
     for todo in res.json():
-        if todo['completed']:
+        if todo.get('completed'):
             num_done_task += 1
-            done_task.append(todo['title'])
+            done_task.append(todo.get('title'))
         num_all_task += 1
     print("Employee {} is done with tasks({:d}/{:d}):".format(
-        user[0]['name'], num_done_task, num_all_task))
+        user[0].get('name'), num_done_task, num_all_task))
     for i in done_task:
         print("\t {}".format(i))
 
