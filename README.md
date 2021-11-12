@@ -11,4 +11,4 @@
 - OS: Ubuntu 14.04 LTS
 - Style guidelines: Shellscript for Bash
 ### Author
-Amanuel Sisay     [![alt](https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/30px-Twitter_Bird.svg.png)](https://twitter.com/amanabiy_as)
+Amanuel Sisay     [![alt](https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/30px-Twitter_Bird.svg.png)](https://twitter.com/amanabiy_as) [![linkedIn](https://cdn-icons-png.flaticon.com/512/174/174857.png)](https://www.linkedin.com/in/amanuel-abiy-87b044201/)
